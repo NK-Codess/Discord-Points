@@ -35,7 +35,7 @@ client.once("ready", async () => {
     await rest.put(Routes.applicationCommands(client.user.id), { body: commands })
 console.log("ready " + client.user.username);
     client.user.setStatus("dnd")
-    client.user.setActivity("discord.gg/wicks", {
+    client.user.setActivity("NK Codes", {
 type: ActivityType.Playing
 });
 });
